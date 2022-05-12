@@ -1,0 +1,426 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Site made with Mobirise Website Builder v5.6.5, https://mobirise.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="Mobirise v5.6.5, mobirise.com">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image:src" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:title" content="Recomendaciones">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="{% static 'images/logo.png' %}" type="image/x-icon">
+    <meta name="description" content="">
+
+
+    <title>Recomendaciones</title>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap-reboot.min.css' %}">
+    <link rel="stylesheet" href="{% static 'parallax/jarallax.css' %}">
+    <link rel="stylesheet" href="{% static 'dropdown/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'socicon/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'theme/css/style.css' %}">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"
+        as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap">
+    </noscript>
+    <link rel="preload" as="style" href="{% static 'mobirise/css/mbr-additional.css' %}">
+    <link rel="stylesheet" href="{% static 'mobirise/css/mbr-additional.css' %}" type="text/css">
+
+
+</head>
+
+<body>
+
+    <section data-bs-version="5.1" class="menu menu2 cid-sFCw1qGFAI" once="menu" id="menu2-23">
+
+        <nav class="navbar navbar-dropdown navbar-expand-lg">
+            <div class="container">
+                <div class="navbar-brand">
+
+                    <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7"
+                            href="https://mobiri.se">Sistemas de recomendación - Taller 2 - Modelos de recomendación
+                            híbridos y evaluación</a></span>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section data-bs-version="5.1" class="form8 cid-t5s7wiUFLe" id="form8-0">
+
+        <div class="container">
+            <div class="row">
+                <div class="mbr-section-head">
+                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                        <strong>Buscar usuario</strong>
+                    </h3>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                        <form action="/recomendaciones/" method="GET" class="mbr-form form-with-styler mx-auto"
+                            data-form-title="Form Name"><input type="hidden" name="user_id" data-form-email="true">
+                            <div class="dragArea row">
+                                <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                                    <input type="text" name="user_id" placeholder="Usuario" data-form-field="name"
+                                        class="form-control" value="" id="name-form8-0">
+                                </div>
+                                <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center">
+                                    <button type="submit" class="btn btn-primary display-4">Buscar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="counter-container col-md-12 col-lg-10">
+
+                    <div class="mbr-text mbr-fonts-style display-7">
+                        <div><strong>Mis calificaciones</strong></div>
+                        <div class="container">
+                            <table border="1" class="default">
+  <thead>
+    <tr style="text-align: center;">
+      <th scope="row">item_id</th>
+      <th>item_ids</th>
+      <th>score_item_ids</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr valign="center" align="center">
+      <th>1029</th>
+      <td>0ZsqqzHu1HHkDdIKoivi5g</td>
+      <td>3.174435</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>1448</th>
+      <td>1An4DxtMmvvSe0HX4viRCA</td>
+      <td>3.0442595233930305</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>2998</th>
+      <td>3YqUe2FTCQr0pPVK8oCv6Q</td>
+      <td>3.0</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>3084</th>
+      <td>3gXgILE2YWVidJDvVWBT6Q</td>
+      <td>3.396780347222222</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>13652</th>
+      <td>KP5OncF2jhT7_J1phHPPww</td>
+      <td>3.77094337962963</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>14092</th>
+      <td>L5LLN0RafiV1Z9cddzvuCw</td>
+      <td>3.5896813775510203</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>15240</th>
+      <td>MxRZHZoDVVnN7EvMAHf1EA</td>
+      <td>3.317237887755102</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>15770</th>
+      <td>NpdEroh0WRNfkNrJ7J9Nqg</td>
+      <td>3.761983535621721</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>17333</th>
+      <td>QHWYlmVbLC3K6eglWoHVvA</td>
+      <td>3.1539484802847064</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>23431</th>
+      <td>ZvI9Ytqx_S_kahct3YzS0w</td>
+      <td>3.215755222222222</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>26992</th>
+      <td>eR7ieJD12PUzsYrP8fw6rQ</td>
+      <td>2.87494</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>28933</th>
+      <td>hTA0eCoMdAebXzm4jkx-0A</td>
+      <td>3.468009208333333</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>34094</th>
+      <td>pgO-fORYt4nb5Tj0x1F_aQ</td>
+      <td>2.7471016796875</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>37174</th>
+      <td>uYMVRPYEqpmVXWN2xOs5KQ</td>
+      <td>3.260384693877551</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>37951</th>
+      <td>vl40Oa75v42jvJsHwpCGKA</td>
+      <td>4.61575659375</td>
+    </tr>
+  </tbody>
+</table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="form8 cid-t5s7A5KHMM" id="form8-1">
+        <div class="container">
+            <div class="row align-center">
+                <div class="col-12">
+                    <h3 class="mbr-section-title mb-4 align-center mbr-fonts-style display-2"><strong>Top 10
+                            recomendaciones</strong></h3>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="mbr-section-subtitle mb-3 align-center mbr-fonts-style display-5">Modelo BPR</h4>
+                    <div class="container">
+                        <table border="1" class="default">
+  <thead>
+    <tr style="text-align: center;">
+      <th scope="row">item_id</th>
+      <th>business_id</th>
+      <th>score</th>
+      <th>already_liked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr valign="center" align="center">
+      <th>28450</th>
+      <td>gkG-xrnEv-FpkqwgOKiHUQ</td>
+      <td>31.927000</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>24180</th>
+      <td>a55AKfh1XfKzqxDyzswVqA</td>
+      <td>21.382711</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>7696</th>
+      <td>AxtOW_b6a6iuojs_ObGpzA</td>
+      <td>8.330984</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>25855</th>
+      <td>cgcOYegrCFvqjT7MGTevsQ</td>
+      <td>5.900070</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>30140</th>
+      <td>jL_NufxqXi-BpW5uXKsPwQ</td>
+      <td>5.491438</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>23943</th>
+      <td>_j8KJ7muz3hBGBN8RLCpOw</td>
+      <td>4.455277</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>20079</th>
+      <td>Ucga4DbB6vdwldZnzWHSLw</td>
+      <td>4.447438</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>14100</th>
+      <td>L617WGpANJZW8orvCdOO1w</td>
+      <td>3.882468</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>14409</th>
+      <td>LbNkUqZ1Fa5QRFo-PDMlUQ</td>
+      <td>2.808822</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>29076</th>
+      <td>hfA8wxlYRBIkSLNXlWTL9A</td>
+      <td>2.530318</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="mbr-section-subtitle mb-3 mt-5 mt-lg-0 align-center mbr-fonts-style display-5">Modelo
+                        WARP</h4>
+                    <div class="container">
+                        <table border="1" class="default">
+  <thead>
+    <tr style="text-align: center;">
+      <th scope="row">item_id</th>
+      <th>business_id</th>
+      <th>score</th>
+      <th>already_liked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr valign="center" align="center">
+      <th>23859</th>
+      <td>_ab50qdWOk0DdB6XOrBitw</td>
+      <td>0.266018</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>24506</th>
+      <td>ac1AeYqs8Z4_e2X5M3if2A</td>
+      <td>0.262793</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>11282</th>
+      <td>GXFMD0Z4jEVZBCsbPf4CTQ</td>
+      <td>0.245112</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>39965</th>
+      <td>ytynqOUb3hjKeJfRj5Tshw</td>
+      <td>0.238267</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>29577</th>
+      <td>iSRTaT9WngzB8JJ2YKJUig</td>
+      <td>0.227728</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>33182</th>
+      <td>oBNrLz4EDhiscSlbOl8uAw</td>
+      <td>0.227680</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>20585</th>
+      <td>VQcCL9PiNL_wkGf-uF3fjg</td>
+      <td>0.223866</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>23607</th>
+      <td>_C7QiQQc47AOEv4PE3Kong</td>
+      <td>0.220402</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>11061</th>
+      <td>GBTPC53ZrG1ZBY3DT8Mbcw</td>
+      <td>0.211007</td>
+      <td>False</td>
+    </tr>
+    <tr valign="center" align="center">
+      <th>4929</th>
+      <td>6a4gLLFSgr-Q6CZXDLzBGQ</td>
+      <td>0.208243</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-bs-version="5.1" class="map3 cid-t5s7A5KHMM" id="map3-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mbr-section-title mb-4 align-center mbr-fonts-style display-2">
+                        <strong>localización</strong></h3>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="mbr-section-subtitle mb-3 align-center mbr-fonts-style display-5">Modelo BPR</h4>
+                    <div id="mapBRP" style="width:100%;height:400px;"></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h4 class="mbr-section-subtitle mb-3 mt-5 mt-lg-0 align-center mbr-fonts-style display-5">Modelo
+                        WARP</h4>
+                    <div id="mapWARP" style="width:100%;height:400px;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="display-7"
+        style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;">
+        <a href="https://mobiri.se/2727432"
+            style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;"
+                src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a>
+        <p style="margin: 0;text-align: center;" class="display-7">Built with &#8204;</p><a style="z-index:1"
+            href="https://mobirise.com">Mobirise.com </a>
+    </section>
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'parallax/jarallax.js' %}"></script>
+    <script src="{% static 'smoothscroll/smooth-scroll.js' %}"></script>
+    <script src="{% static 'ytplayer/index.js' %}"></script>
+    <script src="{% static 'dropdown/js/navbar-dropdown.js' %}"></script>
+    <script src="{% static 'theme/js/script.js' %}"></script>
+
+    <script>
+        // Data for the markers consisting of a name, a LatLng and a zIndex for the
+        // order in which these markers should display on top of each other.
+        const beachesBRP = [['gkG-xrnEv-FpkqwgOKiHUQ', 39.7444231, -74.9957815], ['a55AKfh1XfKzqxDyzswVqA', 36.2012376244, -86.5184536507], ['AxtOW_b6a6iuojs_ObGpzA', 39.7635344, -86.3837987], ['cgcOYegrCFvqjT7MGTevsQ', 40.0612774187, -75.2372046062], ['jL_NufxqXi-BpW5uXKsPwQ', 40.264876, -75.627454], ['_j8KJ7muz3hBGBN8RLCpOw', 39.788632, -75.6959264], ['Ucga4DbB6vdwldZnzWHSLw', 39.7052073, -74.89665], ['L617WGpANJZW8orvCdOO1w', 40.187823805, -75.1461916789], ['LbNkUqZ1Fa5QRFo-PDMlUQ', 27.9602239253, -82.4416590482], ['hfA8wxlYRBIkSLNXlWTL9A', 27.8540104, -82.2723475]];
+        const beachesWARP = [['_ab50qdWOk0DdB6XOrBitw', 29.9490569, -90.0670492], ['ac1AeYqs8Z4_e2X5M3if2A', 29.9422803, -90.0672682], ['GXFMD0Z4jEVZBCsbPf4CTQ', 29.9507416316, -90.0704155423], ['ytynqOUb3hjKeJfRj5Tshw', 29.95647323, -90.066386051], ['iSRTaT9WngzB8JJ2YKJUig', 29.956231, -90.067563], ['oBNrLz4EDhiscSlbOl8uAw', 29.9542735, -90.0689651], ['VQcCL9PiNL_wkGf-uF3fjg', 39.9533414645, -75.1588545174], ['_C7QiQQc47AOEv4PE3Kong', 36.1513871523, -86.7966029393], ['GBTPC53ZrG1ZBY3DT8Mbcw', 29.9287354418, -90.0841956098], ['6a4gLLFSgr-Q6CZXDLzBGQ', 29.951025, -90.067394]];
+        // The following example creates complex markers to indicate beaches near
+        // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
+        // to the base of the flagpole.
+        function initMap() {
+            const mapBRP = new google.maps.Map(document.getElementById("mapBRP"), {
+                zoom: 4,
+                center: { lat: 34.059443200000004, lng: -80.70755182535 },
+            });
+
+            const mapWARP = new google.maps.Map(document.getElementById("mapWARP"), {
+                zoom: 4,
+                center: { lat: 34.94103845315, lng: -82.6215250636 },
+            });
+
+            setMarkers(mapBRP, beachesBRP);
+            setMarkers(mapWARP, beachesWARP);
+        }
+
+        function setMarkers(map, beaches) {
+
+            for (let i = 0; i < beaches.length; i++) {
+                const beach = beaches[i];
+
+                new google.maps.Marker({
+                    position: { lat: beach[1], lng: beach[2] },
+                    map,
+                    title: beach[0],
+                });
+            }
+        }
+
+        window.initMap = initMap;
+    </script>
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBS1-7Z2h-xpaUimkVAaPmp8jhPgA4vDWA&callback=initMap"></script>
+
+</body>
+
+</html>
